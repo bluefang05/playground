@@ -20,7 +20,6 @@ function RenderCondicional() {
       <h1 onClick={showDetails}>Titulo</h1>
       {visible ? <div>Detalles</div> : ""}
       <CodeBlock codeString = {code} />
-      <textarea style={{width:"100%", height:"500px"}} value={code}></textarea>
     </div>
   );
 }

@@ -12,7 +12,7 @@ function Header() {
           
         <img id="logo" src={logo} alt="Logo" />
         <Link to="/">Home</Link>
-        <Link to="/users">Users</Link>
+        <Link to="/UseEffectUpdate">UseEffectUpdate</Link>
         <Link to="/RenderCondicional">Render Condicional</Link> 
         <Link to="/RenderLista">Render Lista</Link> 
         <Link to="/RenderSinLista">Render sin Lista</Link> 
