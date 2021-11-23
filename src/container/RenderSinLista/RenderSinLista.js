@@ -2,9 +2,11 @@ import React from 'react'
 import CodeBlock from '@tenon-io/tenon-codeblock';
 
 function RenderSinLista() {
+    let times = 9;
+
     return (
         <div>
-            {[...Array(5)].map( function (el, i) { 
+            {[...Array(times)].map( function (el, i) { 
             return <h1>{i}</h1> })}
              <CodeBlock codeString = {code} />
         </div>
@@ -12,6 +14,14 @@ function RenderSinLista() {
 }
 
 export default RenderSinLista
+
+
+
+
+
+
+
+
 
 var code = `
 function RenderSinLista() {

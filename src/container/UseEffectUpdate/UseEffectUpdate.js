@@ -7,8 +7,9 @@ function UseEffectUpdate() {
     }
 
     useEffect(() => {
+        
         alert(count);
-    })
+    },[count])
     
     return (
         <div>

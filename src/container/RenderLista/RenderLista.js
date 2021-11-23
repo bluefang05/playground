@@ -15,7 +15,7 @@ function RenderLista() {
     return (
         <div>
             {pokemonArray.map(function (el, i ) { 
-               return <h3> {el} </h3>
+               return <h3> {i + 1} - {el} </h3>
              })}
       <CodeBlock codeString = {code} />
 
