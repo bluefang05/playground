@@ -13,7 +13,7 @@ function Routes() {
       <Route path="/renderlista" element={<RenderLista/>} />
       <Route path="/rendercondicional" element={<RenderCondicional/>} />
       <Route path="/UseEffectUpdate" element={<UseEffectUpdate/>} />
-      <Route path="/" element={Home} />
+      <Route path="/" element={<Home/>} />
     </RouteList>
   );
 }
