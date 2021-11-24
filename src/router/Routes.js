@@ -9,11 +9,11 @@ import RenderSinLista from "../container/RenderSinLista/RenderSinLista";
 function Routes() {
   return (
     <RouteList>
-      <Route path="/rendersinlista" component={RenderSinLista} />
-      <Route path="/renderlista" component={RenderLista} />
-      <Route path="/rendercondicional" component={RenderCondicional} />
-      <Route path="/UseEffectUpdate" component={UseEffectUpdate} />
-      <Route path="/" component={Home} />
+      <Route path="/rendersinlista" element={<RenderSinLista/>} />
+      <Route path="/renderlista" element={<RenderLista/>} />
+      <Route path="/rendercondicional" element={<RenderCondicional/>} />
+      <Route path="/UseEffectUpdate" element={<UseEffectUpdate/>} />
+      <Route path="/" element={Home} />
     </RouteList>
   );
 }
