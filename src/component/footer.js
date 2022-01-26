@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 
 export default function Footer() {
     return(
@@ -26,12 +26,12 @@ export default function Footer() {
                     </li>
                 </ul>
             </nav>
-            <div>
+            {/* <div>
                 <SocialIcon url="https://www.youtube.com/"/>
                 <SocialIcon url="https://twitter.com/?lang=en"/>
                 <SocialIcon url="https://web.facebook.com/?_rdc=1&_rdr"/>
                 <SocialIcon url="https://www.instagram.com/"/>
-            </div>
+            </div> */}
         </footer>
     )
 }
