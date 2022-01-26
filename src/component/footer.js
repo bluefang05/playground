@@ -6,7 +6,7 @@ import { SocialIcon } from 'react-social-icons';
 export default function Footer() {
     return(
         <footer>
-            <img id="logo" src={logo} alt="Logo" />
+            
             <nav>
                 <ul>
                     <li>
