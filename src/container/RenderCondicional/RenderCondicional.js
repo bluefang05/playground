@@ -16,9 +16,9 @@ function RenderCondicional() {
 
   return (
     <div>
-      Render Condicional
-      <h1 onClick={showDetails}>Titulo</h1>
-      {visible ? <div>Detalles</div> : ""}
+      Condicional Render
+      <h1 onClick={showDetails}>Click me</h1>
+      {visible ? <div>Hidden Details</div> : ""}
       <CodeBlock codeString = {code} />
     </div>
   );

@@ -1,3 +1,20 @@
+.App > div:nth-child(2) {
+  min-height: 100vh;
+}
+
+.class-home {
+  padding: 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px auto;
+}
+
+.class-home > h3 {
+  grid-column: 1 / span 4;
+  width: calc(100% - 100px);  
+}
+
 #header {
   padding-left: 12px;
   padding-right: 16px;
@@ -12,4 +29,64 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+  display: grid;
+  grid-template-columns: 50px 200px calc(100vw - 470px) 120px;
+  padding: 15px 50px !important;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 0;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters ul li {
+  list-style: none;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters ul li a,
+footer nav ul li a {
+  color: #fff;
+  text-decoration: navajowhite;
+  font-weight: 300;
+}
+
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters ul li a:hover,
+footer nav ul li a:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+footer {
+  background: #253064;
+  padding: 15px 50px;
+  display: grid;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  gap: 20px;
+}
+
+footer nav{
+  grid-column: 1;
+}
+
+footer nav ul{
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+footer nav ul li {
+  list-style: none;
+}
+
+footer > div:last-child{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
 }
